@@ -61,7 +61,7 @@ namespace Frozen
 
         public static string[] GetDataFromFile()
         {
-            string filePath = @"C:\Users\aivar.kolga\samples\frozen.txt";
+            string filePath = @"C:\Users\...\samples\frozen.txt";
             string[] dataFromFile = File.ReadAllLines(filePath);
 
             return dataFromFile;

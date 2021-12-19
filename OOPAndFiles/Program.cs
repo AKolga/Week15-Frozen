@@ -65,7 +65,7 @@ namespace OOPAndFiles
 
         public static string[] GetDataFromFile()
         {
-            string filePath = @"C:\Users\aivar.kolga\samples\movies.txt";
+            string filePath = @"C:\Users\...\samples\movies.txt";
             string[] dataFromFile = File.ReadAllLines(filePath);
 
             return dataFromFile;
